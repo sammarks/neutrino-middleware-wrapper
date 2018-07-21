@@ -1,0 +1,39 @@
+{
+  "name": "neutrino-middleware-wrapper",
+  "version": "0.0.1",
+  "description": "Neutrino middleware for wrapping specific files in arbitrary code.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version -r",
+    "test": "ava --fail-fast test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammarks/neutrino-middleware-wrapper.git"
+  },
+  "keywords": [
+    "neutrino-middleware",
+    "neutrino",
+    "middleware",
+    "webpack",
+    "wrapper"
+  ],
+  "author": "Sam Marks <sam@sammarks.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammarks/neutrino-middleware-wrapper/issues"
+  },
+  "homepage": "https://github.com/sammarks/neutrino-middleware-wrapper#readme",
+  "peerDependencies": {
+    "neutrino": "^8.0.0"
+  },
+  "dependencies": {
+    "wrapper-webpack-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "neutrino": "^8.3.0",
+    "standard-version": "^4.4.0",
+    "tap-xunit": "^2.3.0"
+  }
+}
