@@ -28,7 +28,7 @@ module.exports = {
 
 ## Features
 
-- Uses the [Webpack Wrapper Plugin][wrapper-link] wrap output files with custom text or code.
+- Uses the [Webpack Wrapper Plugin][wrapper-link] to wrap output files with custom text or code.
 - Supports a `test` option to change the regex used to match output filenames.
 - Passes `header` and `footer` options directly to the plugin.
 
